@@ -1,9 +1,11 @@
+import {News} from "../../components";
+
 const NewsPage = () => {
 
 
     return (
         <div>
-            NewsPage
+            <News/>
         </div>
     );
 };

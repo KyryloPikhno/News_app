@@ -1,9 +1,11 @@
+import {Home} from "../../components";
+
 const HomePage = () => {
 
 
     return (
         <div>
-            HomePage
+            <Home/>
         </div>
     );
 };

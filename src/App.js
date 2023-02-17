@@ -8,7 +8,7 @@ function App() {
     return (
         <Routes>
             <Route path={'/'} element={<Layout/>}>
-                <Route index element={<Navigate to={'/'}/>}/>
+                {/*<Route index element={<Navigate to={'/'}/>}/>*/}
                 <Route path={'/'} element={<HomePage/>}/>
                 <Route path={'/news'} element={<NewsPage/>}/>
                 {/*<Route element={<PrivateRoute/>}>*/}

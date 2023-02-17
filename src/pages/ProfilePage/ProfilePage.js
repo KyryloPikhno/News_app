@@ -1,9 +1,11 @@
+import {Profile} from "../../components";
+
 const ProfilePage = () => {
 
 
     return (
         <div>
-            ProfilePage
+            <Profile/>
         </div>
     );
 };
