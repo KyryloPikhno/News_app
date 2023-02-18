@@ -10,7 +10,6 @@ import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
-import AdbIcon from '@mui/icons-material/Adb';
 import {useState} from "react";
 
 
@@ -106,7 +105,6 @@ const Header =()=> {
                             </Button>
                         </Menu>
                     </Box>
-                    <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
                     <Typography
                         variant="h5"
                         noWrap
@@ -123,7 +121,7 @@ const Header =()=> {
                             textDecoration: 'none',
                         }}
                     >
-                        LOGO
+                        NewsApp
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         <Button
